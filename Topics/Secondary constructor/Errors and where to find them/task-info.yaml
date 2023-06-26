@@ -1,0 +1,29 @@
+type: matching
+captions:
+- A
+- B
+- C
+- D
+options:
+- No values passed for constructor parameters
+- Primary constructor call is absent
+- Signature uniqueness violation
+- Reassigning val because of name collision
+files:
+- name: src/Main.kt
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    fun main(args: Array<String>) {
+      // put your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/10747#comment
+status: Solved
+record: -1
+ordering:
+- 0
+- 1
+- 2
+- 3
